@@ -1,6 +1,5 @@
 # libtcod-sample
-
-ビルド環境：
+## ビルド環境
 - MSYS2, http://repo.msys2.org/distrib/x86_64/msys2-x86_64-20190524.exe
 
 ```
@@ -13,6 +12,13 @@ $ ./tuto.exe
 24 bits font.
 key color : 255 255 255
 ```
+
+## メモ
+
+- libtcod + pythonで日本語を表示, https://pcjyohochikusekiko.blogspot.com/2014/06/libtcod-python.html
+
+font.pngは https://github.com/yamamushi/theasciiproject/blob/master/data/font.png からダウンロードしたもの。
+Unicodeのコードポイント順に32 x 2048で並んでいる。
 
 gettextによる翻訳
 
