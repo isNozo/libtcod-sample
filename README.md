@@ -13,3 +13,11 @@ $ ./tuto.exe
 24 bits font.
 key color : 255 255 255
 ```
+
+gettextによる翻訳
+
+```
+$ xgettext --keyword=_ --language=C --add-comments --sort-output -o locale/hello.pot hello.c
+$ msginit --input=locale/hello.pot --locale=ja --output=locale/ja/LC_MESSAGES/hello.po
+$ msgfmt --output-file=locale/ja/LC_MESSAGES/hello.mo locale/ja/LC_MESSAGES/hello.po
+```

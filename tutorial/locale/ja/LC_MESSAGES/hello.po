@@ -1,0 +1,23 @@
+# Japanese translations for PACKAGE package
+# PACKAGE �p�b�P�[�W�ɑ΂���p��.
+# Copyright (C) 2020 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-11 15:13+0900\n"
+"PO-Revision-Date: 2020-04-11 15:15+0900\n"
+"Last-Translator: <EMAIL@ADDRESS>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: hello.c:41
+msgid "ABC"
+msgstr "あいう"
